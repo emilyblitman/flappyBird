@@ -17,3 +17,4 @@ class Bird(pygame.sprite.Sprite):
 
     def reset(self, pos):
         self.rect.center = pos
+        self.speed = pygame.math.Vector2(0, 7)

@@ -9,7 +9,7 @@ class Platform(pygame.sprite.Sprite):
             self.image = pygame.transform.rotate(self.image, -180)
         self.rect = self.image.get_rect()
         self.rect.center = pos
-        self.speed = pygame.math.Vector2(-6, 0)
+        self.speed = pygame.math.Vector2(-10, 0)
 
     def update(self):
         #screen_info = pygame.display.Info()
